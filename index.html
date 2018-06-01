@@ -12,8 +12,8 @@
 		<header class="row">
 			<a href="#" class="button col-sm col-md-2 col-lg-1 nav-item"><img class="header-logo" src="twinfox.png" alt=""></img></a>
 			<label class="button col-md-1 hidden-md hidden-lg drawer-toggle persistent nav-item" for="menu-drawer"></label>
-			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">games</i>Games</a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">games</i></a>
+			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">videogame_asset</i>Games</a>
+			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">videogame_asset</i></a>
 			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">android</i>Apps</a>
 			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">android</i></a>
 			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">message</i>Blog</a>
@@ -22,11 +22,12 @@
 			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">info_outline</i></a>
 		</header>
 		<main>
+			<!--Drawer Menu-->
 			<div id="drawer-container">
 				<input type="checkbox" id="menu-drawer" class="drawer persistent">
 				<div>
 					<label for="menu-drawer" class="drawer-close"></label>
-					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">games</i>Games</a>
+					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">videogame_asset</i>Games</a>
 					<br>
 					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">android</i>Apps</a>
 					<br>
@@ -35,8 +36,10 @@
 					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">info_outline</i>About</a>
 				</div>
 			</div>
-			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons header-icon">schedule</i>Latest Entries</mark></h1>
-			<div class="row" style="padding:3em;">
+			<!--Latest Entries-->
+			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">schedule</i>Latest Entries</mark></h1>
+			<div class="row" style="padding-bottom:1em;">
+				<!--First-->
 				<div class="col-sm-12 col-md-offset-2 col-md-2">
 					<div class="card fluid">
 						<div class="section">
@@ -48,6 +51,7 @@
 						</div>
 					</div>
 				</div>
+				<!--Second-->
 				<div class="col-sm-12 col-md-offset-1 col-md-2">
 					<div class="card fluid">
 						<div class="section">
@@ -59,6 +63,7 @@
 						</div>
 					</div>
 				</div>
+				<!--Third-->
 				<div class="col-sm-12 col-md-offset-1 col-md-2">
 					<div class="card fluid">
 						<div class="section">
@@ -71,7 +76,57 @@
 					</div>
 				</div>
 			</div>
-			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons header-icon">message</i>Blog</mark></h1>
+			<!--Blog-->
+			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">message</i>Blog</mark></h1>
+			<div class="row" style="padding-bottom:1em;">
+				<div class="col-sm-12 col-md-offset-2 col-md-8">
+					<div class="card fluid">
+						<div class="section">
+							<h3>Awakening CCG - Devlog #4.5<small>18.05.2018</small></h3>
+						</div>
+						<div class="section">
+							<p>It was another busy week for me, so there is neither a lot to show nor a lot talk about this week. That’s why this is Devlog #4.5 and not really #5...</p>
+							<a href="#" class="nav-item button inverse">Read more...</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Games-->
+			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">videogame_asset</i>Games</mark></h1>
+			<div class="row" style="padding-bottom:1em;">
+				<div class="hidden-sm col-md-offset-2 col-md-2">
+					<img src="awakening_logo.png"></img>
+				</div>
+				<div class="col-sm-12 col-md-offset-1 col-md-5">
+					<div class="card fluid">
+						<div class="section">
+							<h3>Awakening CCG</h3>
+						</div>
+						<div class="section">
+							<p>Awakening is the fast-paced, science-fiction card game I'm currently working on. It features strategic deck-building, lightning fast battles and a fair free-to-play model. Currently there is no playable version available, but stay tuned for updates on my blog.</p>
+							<a href="#" class="nav-item button inverse">Go to Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Apps-->
+			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">android</i>Apps</mark></h1>
+			<div class="row" style="padding-bottom:1em;">
+				<div class="hidden-sm col-md-offset-2 col-md-2">
+					<img src="bubble_logo.png"></img>
+				</div>
+				<div class="col-sm-12 col-md-offset-1 col-md-5">
+					<div class="card fluid">
+						<div class="section">
+							<h3>Bubble</h3>
+						</div>
+						<div class="section">
+							<p>When I discovered that I could create apps directly on my phone with Sketchware, I decided to make this social-media app, where your posts are only visible within a certain range around you, that increases whenever someone likes one of your posts.</p>
+							<a href="#" class="nav-item button inverse">Go to Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<p>Put legal stuff here</p>
