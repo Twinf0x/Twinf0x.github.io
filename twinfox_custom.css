@@ -1,0 +1,47 @@
+:root{
+	--back-color:#2a2a2a;
+	--fore-color:#fafafa;
+	--secondary-fore-color:#bdbdbd;
+	--border-color:#616161;
+	--a-link-color:var(--fore-color);
+	--a-visited-color:var(--fore-color);
+	--header-fore-color:var(--fore-color);
+	--header-back-color:#212121;
+	--header-hover-back-color:#2a2a2a;
+	--accent-color:#ffa726;
+	--accent-glow:#ffc107;
+	--nav-fore-color:var(--fore-color);
+	--nav-link-color:var(--fore-color);
+	--nav-back-color:var(--back-color);
+	--nav-hover-back-color:var(--header-hover-back-color);
+	--drawer-back-color:#424242;
+	--drawer-hover-back-color:#616161;
+	--drawer-close-color:var(--fore-color);
+	--drawer-border-color:var(--drawer-back-color);
+	--footer-fore-color:var(--fore-color);
+	--footer-back-color:var(--header-back-color);
+	--footer-border-color:var(--footer-back-color);
+	--footer-link-color:var(--a-link-color);
+	--mark-back-color:linear-gradient(to top right, #512da8, #aa00ff);
+}
+
+.header-logo{
+	height:calc(3.1875rem - var(--universal-padding) * 1.5);
+}
+
+.header-icon{
+	font-size:1.5em;
+	padding-right:5px;
+	padding-bottom:5px;
+	vertical-align:middle;
+}
+
+.menu-item{
+	margin:0.5em;
+	line-height: 300%;
+}
+
+.nav-item:hover{
+	color:var(--accent-color);
+	text-shadow: 0px 0px 3px var(--accent-glow);
+}
