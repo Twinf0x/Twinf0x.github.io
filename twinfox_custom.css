@@ -1,7 +1,7 @@
 :root{
 	--back-color:linear-gradient(to bottom, #616161, #2a2a2a);
 	--fore-color:#fafafa;
-	--secondary-fore-color:#bdbdbd;
+	--secondary-fore-color:#757575;
 	--border-color:#616161;
 	--a-link-color:var(--fore-color);
 	--a-visited-color:var(--fore-color);
@@ -10,6 +10,7 @@
 	--header-hover-back-color:#2a2a2a;
 	--accent-color:#ffa726;
 	--accent-glow:#ffc107;
+	--accent-gradient:linear-gradient(to right, #fc4a1a, #f7b733);
 	--nav-fore-color:var(--fore-color);
 	--nav-link-color:var(--fore-color);
 	--nav-back-color:var(--back-color);
@@ -51,4 +52,22 @@
 	vertical-align:middle;
 	padding-bottom:5px;
 	padding-right:10px;
+}
+
+.row.full-color-row{
+	background:var(--accent-gradient);
+}
+
+.transparent{
+	background:transparent !important;
+	border-color:transparent !important;
+}
+
+.vertical-text{
+	text-align: center;
+	writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  display: inline-block;
+  overflow: visible;
 }
