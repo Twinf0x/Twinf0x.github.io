@@ -71,3 +71,11 @@
   display: inline-block;
   overflow: visible;
 }
+
+.media > img{
+	display: block;
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
