@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.0/dist/mini-default.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="twinfox_custom.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header class="row">
@@ -80,6 +81,12 @@
 					</div>
 				</div>
 			</div>
+			<!--Quote-->
+			<div class="row full-color-row-alt" style="padding-bottom:1em; padding-top:1em;">
+				<div class="col-sm-12 col-md-offset-2 col-md-8">
+					<blockquote class="custom-blockquote" cite="Nolan Bushnell">Video games foster the mindset that allows creativity to grow.</blockquote>
+				</div>
+			</div>
 			<!--Games and Apps-->
 			<div class="row">
 				<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">videogame_asset</i>/<i class="material-icons tag-icon">android</i>Spotlight</mark></h1>
@@ -116,19 +123,25 @@
 					</div>
 				</div>
 			</div>
-			<!--Newsletter-->
+			<!--Social Media-->
 			<div class="row full-color-row" style="padding-bottom:1em;">
-				<h1 class="col-sm-12 hidden-md hidden-lg"><i class="material-icons tag-icon">mail</i>Newsletter</h1>
-				<h1 class="col-md-offset-1 col-md-1 hidden-sm vertical-text"><i class="material-icons tag-icon">mail</i>Newsletter</h1>
+				<h1 class="col-sm-12 hidden-md hidden-lg"><i class="material-icons tag-icon">thumb_up</i>Social Media</h1>
+				<h1 class="col-md-offset-1 col-md-1 hidden-sm vertical-text"><i class="material-icons tag-icon">notifications_active</i>Social Media</h1>
 				<div class="col-sm-12 col-md-8 col-lg-7">
 					<div class="card fluid transparent">
 						<div class="section transparent">
 							<h3>Do you like what you see?</h3>
 						</div>
 						<div class="section transparent">
-							<p>Then please take a moment to sign up for my newsletter. I won't spam, I just want to tell you when something exciting happens here.</p>
+							<p>Then please take a moment to check out my social media sites so you don't miss anything exciting, that happens around here.</p>
 						</div>
 						<div class="section transparent">
+						  <a href="#" class="button inverse"><i class="fab fa-github fa-lg"></i> Github</a>
+							<a href="#" class="button inverse"><i class="fab fa-tumblr-square fa-lg"></i> Tumblr</a>
+							<a href="#" class="button inverse"><i class="fab fa-reddit fa-lg"></i> Reddit</a>
+							<a href="#" class="button inverse"><i class="far fa-envelope fa-lg"></i> Newsletter</a>
+						</div>
+						<div class="section transparent hidden">
 						  <input type="email" id="newsletter_mail" placeholder="my-adress@example.com"/>
 							<input class="inverse nav-item" type="button" onclick="alert('Thank You!')" value="Sign Up">
 						</div>

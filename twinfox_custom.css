@@ -11,6 +11,7 @@
 	--accent-color:#ffa726;
 	--accent-glow:#ffc107;
 	--accent-gradient:linear-gradient(to right, #fc4a1a, #f7b733);
+	--alt-gradient:linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	--nav-fore-color:var(--fore-color);
 	--nav-link-color:var(--fore-color);
 	--nav-back-color:var(--back-color);
@@ -24,6 +25,7 @@
 	--footer-border-color:var(--footer-back-color);
 	--footer-link-color:var(--a-link-color);
 	--mark-back-color:linear-gradient(to top right, #512da8, #aa00ff);
+	--blockquote-color:#ffffff;
 }
 
 .header-logo{
@@ -59,6 +61,11 @@
 	box-shadow: 0px 0px 4px#000000;
 }
 
+.row.full-color-row-alt{
+	background:var(--alt-gradient);
+	box-shadow: 0px 0px 4px#000000;
+}
+
 .transparent{
 	background:transparent !important;
 	border-color:transparent !important;
@@ -83,4 +90,11 @@
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.custom-blockquote{
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+	color: #ffffff;
 }
