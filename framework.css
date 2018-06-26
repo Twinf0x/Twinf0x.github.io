@@ -28,6 +28,11 @@ html{
   background-color: var(--universal-background-color);
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6, button, .navlink{
   font-family: "Ubuntu", sans-serif;
 }
@@ -84,6 +89,17 @@ header > a{
   margin-right: calc(4 * var(--universal-padding));
   text-transform: uppercase;
   transition: 0.3s;
+}
+
+footer{
+  background-color: #212121;
+  color: var(--universal-background-color);
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 30px;
 }
 
 .navlink:hover{

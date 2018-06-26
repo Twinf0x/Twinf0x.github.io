@@ -1,174 +1,82 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Twinfox</title>
-		<link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.0/dist/mini-default.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="twinfox_custom.css">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header class="row">
-			<a href="#" class="button col-sm col-md-2 col-lg-1 nav-item"><img class="header-logo" src="twinfox.png" alt=""></img></a>
-			<label class="button col-md-1 hidden-md hidden-lg drawer-toggle persistent nav-item" for="menu-drawer"></label>
-			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">videogame_asset</i>Games</a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">videogame_asset</i></a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">android</i>Apps</a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">android</i></a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">weekend</i>Other</a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">weekend</i></a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">message</i>Blog</a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">message</i></a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-md nav-item"><i class="material-icons header-icon">info_outline</i>About</a>
-			<a href="#" class="button col-md-1 hidden-sm hidden-lg nav-item"><i class="material-icons header-icon">info_outline</i></a>
-		</header>
-		<main>
-			<!--Drawer Menu-->
-			<div id="drawer-container">
-				<input type="checkbox" id="menu-drawer" class="drawer persistent">
-				<div>
-					<label for="menu-drawer" class="drawer-close"></label>
-					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">videogame_asset</i>Games</a>
-					<br>
-					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">android</i>Apps</a>
-					<br>
-					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">weekend</i>Other</a>
-					<br>
-					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">message</i>Blog</a>
-					<br>
-					<a href="#" class="col-sm menu-item nav-item"><i class="material-icons header-icon">info_outline</i>About</a>
-				</div>
-			</div>
-			<!--Blog-->
-			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">schedule</i>Latest Entries</mark></h1>
-			<div class="row" style="padding-bottom:1em;">
-				<!--First-->
-				<div class="col-sm-12 col-md-offset-1 col-md-3">
-					<div class="card fluid">
-						<div class="section">
-							<h3>Blog Entry<small>01.01.2000</small></h3>
-						</div>
-						<div class="section">
-							<p>This is where you will be able to see the latest entry from my blog, which will most likely be about any of the projects that you can find here.</p>
-							<a href="#" class="nav-item button inverse">Read more...</a>
-						</div>
-					</div>
-				</div>
-				<!--Second-->
-				<div class="col-sm-12 col-md-3">
-					<div class="card fluid">
-						<div class="section">
-							<h3>Blog Entry<small>01.01.2000</small></h3>
-						</div>
-						<div class="section">
-							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-							<a href="#" class="nav-item button inverse">Read more...</a>
-						</div>
-					</div>
-				</div>
-				<!--Third-->
-				<div class="col-sm-12 col-md-3">
-					<div class="card fluid">
-						<div class="section">
-							<h3>Blog Entry<small>01.01.2000</small></h3>
-						</div>
-						<div class="section">
-							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-							<a href="#" class="nav-item button inverse">Read more...</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Quote-->
-			<div class="row full-color-row-alt" style="padding-bottom:1em; padding-top:1em;">
-				<div class="col-sm-12 col-md-offset-2 col-md-8">
-					<blockquote class="custom-blockquote" cite="Nolan Bushnell">Video games foster the mindset that allows creativity to grow.</blockquote>
-				</div>
-			</div>
-			<!--Games and Apps-->
-			<div class="row">
-				<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">videogame_asset</i>/<i class="material-icons tag-icon">android</i>Spotlight</mark></h1>
-			</div>
-			<div class="row" style="padding-bottom:1em;">
-				<!--Games-->
-				<div class="col-sm-12 col-md-offset-1 col-md-4">
-					<div class="card fluid">
-						<div class="section">
-							<h3>Awakening CCG</h3>
-						</div>
-						<div class="section media">
-							<img src="awakening_logo.png"></img>
-						</div>
-						<div class="section">
-							<p>Awakening is the fast-paced, science-fiction card game I'm currently working on. It features strategic deck-building, lightning fast battles and a fair free-to-play model. Currently there is no playable version available, but stay tuned for updates on my blog.</p>
-							<a href="#" class="nav-item button inverse">Go to Project</a>
-						</div>
-					</div>
-				</div>
-				<!--Apps-->
-				<div class="col-sm-12 col-md-offset-1 col-md-4">
-					<div class="card fluid">
-						<div class="section">
-							<h3>Bubble</h3>
-						</div>
-						<div class="section media">
-							<img src="bubble_logo.png"></img>
-						</div>
-						<div class="section">
-							<p>When I discovered that I could create apps directly on my phone with Sketchware, I decided to make this social-media app, where your posts are only visible within a certain range around you, that increases whenever someone likes one of your posts.</p>
-							<a href="#" class="nav-item button inverse">Go to Project</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Social Media-->
-			<div class="row full-color-row" style="padding-bottom:1em;">
-				<h1 class="col-sm-12 hidden-md hidden-lg"><i class="material-icons tag-icon">thumb_up</i>Social Media</h1>
-				<h1 class="col-md-offset-1 col-md-1 hidden-sm vertical-text"><i class="material-icons tag-icon">notifications_active</i>Social Media</h1>
-				<div class="col-sm-12 col-md-8 col-lg-7">
-					<div class="card fluid transparent">
-						<div class="section transparent">
-							<h3>Do you like what you see?</h3>
-						</div>
-						<div class="section transparent">
-							<p>Then please take a moment to check out my social media sites so you don't miss anything exciting, that happens around here.</p>
-						</div>
-						<div class="section transparent">
-						  <a href="#" class="button inverse"><i class="fab fa-github fa-lg"></i> Github</a>
-							<a href="#" class="button inverse"><i class="fab fa-tumblr-square fa-lg"></i> Tumblr</a>
-							<a href="#" class="button inverse"><i class="fab fa-reddit fa-lg"></i> Reddit</a>
-							<a href="#" class="button inverse"><i class="far fa-envelope fa-lg"></i> Newsletter</a>
-						</div>
-						<div class="section transparent hidden">
-						  <input type="email" id="newsletter_mail" placeholder="my-adress@example.com"/>
-							<input class="inverse nav-item" type="button" onclick="alert('Thank You!')" value="Sign Up">
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Other Projects-->
-			<h1 class="col-md-offset-1"><mark class="tag"><i class="material-icons tag-icon">weekend</i>Other</mark></h1>
-			<div class="row" style="padding-bottom:1em;">
-				<div class="hidden-sm col-md-offset-1 col-md-3 col-lg-offset-2 col-lg-2">
-					<img src="bubble_logo.png"></img>
-				</div>
-				<div class="col-sm-12 col-md-offset-1 col-md-5">
-					<div class="card fluid">
-						<div class="section">
-							<h3>Bubble</h3>
-						</div>
-						<div class="section">
-							<p>When I discovered that I could create apps directly on my phone with Sketchware, I decided to make this social-media app, where your posts are only visible within a certain range around you, that increases whenever someone likes one of your posts.</p>
-							<a href="#" class="nav-item button inverse">Go to Project</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer>
-			<p>Put legal stuff here</p>
-		</footer>
-	</body>
+		<link rel="stylesheet" href="framework.css">
+    <link rel="stylesheet" href="grids.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+    <script src="framework.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img class="header-logo" src="twinfox.png" alt="Twinfox"></img></a>
+      <a href="#" class="navlink hidden-sm hidden-md"><i class="material-icons header-icon">rate_review</i>Blog</a>
+			<a href="#" class="navlink hidden-sm hidden-lg"><i class="material-icons header-icon">rate_review</i></a>
+      <a href="#" class="navlink hidden-sm hidden-md"><i class="material-icons header-icon">code</i>Projects</a>
+			<a href="#" class="navlink hidden-sm hidden-lg"><i class="material-icons header-icon">code</i></a>
+      <a href="#" class="navlink hidden-sm hidden-md"><i class="material-icons header-icon">info_outline</i>About</a>
+			<a href="#" class="navlink hidden-sm hidden-lg"><i class="material-icons header-icon">info_outline</i></a>
+    </header>
+    <section class="grid1">
+      <div class="grid1-image"></div>
+      <div class="grid1-background"></div>
+      <div class="grid1-header">
+        <h1>Twinfox</h1>
+      </div>
+      <div class="grid1-text">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+
+    <div class="scroll-label">
+      <p>Scroll<br><i class="material-icons header-icon">expand_more</i></p>
+    </div>
+
+    <section class="grid2">
+      <div class="grid2-image"></div>
+      <div class="grid2-background"></div>
+      <div class="grid2-header">
+        <h3>Blog</h3>
+      </div>
+      <div class="grid2-text">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="grid2-button">
+        <button>Read More</button>
+      </div>
+    </section>
+
+    <section class="grid3">
+      <div class="grid3-image"></div>
+      <div class="grid3-header">
+        <h3>Projects</h3>
+      </div>
+      <div class="grid3-projectbox-left">
+        <h4>Project A</h4>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <button>More</button>
+      </div>
+      <div class="grid3-projectbox-right">
+        <h4>Project A</h4>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <button>More</button>
+      </div>
+    </section>
+    <footer>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </footer>
+  </body>
 </html>
