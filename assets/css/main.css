@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
 /*
 	Story by HTML5 UP
@@ -157,7 +158,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Nunito", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -6530,11 +6531,12 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
+				background-color: rgba(8, 4, 1, 0.9);
 				opacity: 0;
 				padding: 2rem;
 				z-index: 1;
 				font-size: 0.8rem;
+				font-weight: 400;
 			}
 
 				.gallery.style1 article .caption a {
@@ -6543,6 +6545,7 @@ input, select, textarea {
 
 				.gallery.style1 article .caption h2, .gallery.style1 article .caption h3, .gallery.style1 article .caption h4, .gallery.style1 article .caption h5, .gallery.style1 article .caption h6 {
 					font-size: 1.25rem;
+					font-weight: 400;
 					margin-bottom: 0.25rem;
 				}
 
@@ -6911,11 +6914,12 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
+				background-color: rgba(8, 4, 1, 0.9);
 				opacity: 0;
 				padding: 3rem;
 				z-index: 1;
 				font-size: 0.8rem;
+				font-weight: 400;
 			}
 
 				.gallery.style2 article .caption a {
@@ -6924,6 +6928,7 @@ input, select, textarea {
 
 				.gallery.style2 article .caption h2, .gallery.style2 article .caption h3, .gallery.style2 article .caption h4, .gallery.style2 article .caption h5, .gallery.style2 article .caption h6 {
 					font-size: 1.25rem;
+					font-weight: 400;
 					margin-bottom: 0.25rem;
 				}
 
